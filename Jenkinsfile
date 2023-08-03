@@ -12,5 +12,10 @@ pipeline {
                 sh 'java -version'
             }
         }
+        stage('Deploy') { 
+            steps {
+                echo 'I will deploy'
+            }
+        }
     }
 }
